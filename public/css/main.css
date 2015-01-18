@@ -1,0 +1,83 @@
+body {
+    background: #fff;
+}
+
+.navbar-default {
+    border-radius: 0;
+    border: 0;
+    background-color: #331d35;
+
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #eee;
+    font-weight: 600;
+}
+
+.form-control {
+    border-radius: 9px;
+    background: #fff;
+    border: 0;
+    border-bottom: 2px solid #331d35 !important;
+    height: 40px;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border: 0;
+    background-color: #fff;
+    border-bottom: 2px solid #331d35;
+    box-shadow: none;
+}
+
+.alert {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    color: #fff;
+    background-color: #D50000;
+    font-weight: bold;
+}
+
+.email {
+    border-radius: 9px;
+    background: #fff;
+    border: 0;
+    border-bottom: 2px solid #331d35 !important;
+    height: 40px;
+}
+
+.jumbotron .btn {
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #41307c;
+    border-color: #41307c;
+    border-radius: 0;
+}
+
+.btn-success{
+    background-color: #43A047;
+    border-color: #43A047;
+    border-radius: 0;
+}
+
+.marketing{
+    background-color: rgba(51, 29, 53, 0.1);
+    color: #000;
+}
