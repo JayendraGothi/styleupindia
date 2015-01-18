@@ -6,8 +6,8 @@ class Admin extends CI_Controller
         'protocol' => 'smtp',
         'smtp_host' => 'ssl://smtp.googlemail.com',
         'smtp_port' => 465,
-        'smtp_user' => 'jayendragothi@gmail.com',
-        'smtp_pass' => 'India@1947'
+        'smtp_user' => 'test@gmail.com',
+        'smtp_pass' => 'test'
     );
 
     /**
