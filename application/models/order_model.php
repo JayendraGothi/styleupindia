@@ -14,6 +14,8 @@ class Order_model extends CI_Model {
         parent::__construct();
 
         $this->load->library('encrypt');
+        $this->load->library('email');
+        $this->load->helpers('utility');
     }
 
     /**
@@ -46,6 +48,15 @@ class Order_model extends CI_Model {
         $this->db->join('users', 'orders.user_id = users.id', 'left');
         $query = $this->db->get();
         return $query->result();
+    }
+
+    public function getOrder($order_id){
+        $this->db->select('users.*, orders.*');
+        $this->db->from('orders');
+        $this->db->where('orders.id', $order_id);
+        $this->db->join('users', 'orders.user_id = users.id', 'left');
+        $query = $this->db->get();
+        return $query->result()->row();
     }
 
     public function getTotalCashBack($user_id){
@@ -94,15 +105,41 @@ class Order_model extends CI_Model {
         $notes = $this->security->xss_clean($this->input->post('notes'));
         $cashback = $this->security->xss_clean($this->input->post('cashback'));
 
-        $data = array(
-            'status' => $status,
-            'notes' => $notes,
-            'cashback'=>$cashback
-        );
+        $order = $this->getOrder($order_id);
 
-        $this->db->where('id', $order_id);
-        $this->db->update('orders', $data); 
+        if (is_null($order)){
+            return false;
+        }
+
+        if ($order->status != $status){
+            $data = array(
+                'status' => $status,
+                'notes' => $notes,
+                'cashback'=>$cashback
+            );
+
+            $this->db->where('id', $order_id);
+            $this->db->update('orders', $data);
+
+            $email_data = array(
+                'full_name' => $order->full_name,
+                'status' => $this->utility->str_status($order->status)
+            );
+
+            $this->sendEmail($email_data);
+        }
         return true;
+    }
+
+    public function sendEmail($email_data){
+        $this->load->view('status_update', $email_data, true);
+        $this->email->from('jayendragothi@gmail.com', 'Jayendra');
+        $this->email->to('jayendragothi@gmail.com');
+
+        $this->email->subject('Email Test');
+        $this->email->message('Testing the email class.');
+
+        $this->email->send();
     }
 }
 

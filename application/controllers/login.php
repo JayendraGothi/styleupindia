@@ -1,5 +1,6 @@
 <?php
 class Login extends CI_Controller {
+
 	/**
 	 * Login page
 	 */
@@ -39,8 +40,6 @@ class Login extends CI_Controller {
 	 * Registration page
 	 */
 	public function register(){
-		$body = $this->load->view('forgot_password', array('full_name' => "Raj"), true);
-		$this->sendEmail($body);
 		if ($this->input->post('submit')){
 			$this->validationRules();
 			if ($this->form_validation->run() == FALSE){
@@ -79,19 +78,6 @@ class Login extends CI_Controller {
 		$this->form_validation->set_rules('password', 'Password', 'required|matches[password_confirm]');
 		$this->form_validation->set_rules('password_confirm', 'Password Confirmation', 'required');
 		$this->form_validation->set_rules('email', 'Email', 'required|valid_email|is_unique[users.email]');
-	}
-
-	/**
-	 * Send Email code
-	 */
-	public function sendEmail($body){
-		$this->email->from('jayendragothi@gmail.com', 'Jayendra');
-		$this->email->to('jayendragothi@gmail.com');
-
-		$this->email->subject('Email Test');
-		$this->email->message($body);
-
-		$this->email->send();
 	}
 }
 ?>
