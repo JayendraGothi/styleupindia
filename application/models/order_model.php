@@ -56,7 +56,7 @@ class Order_model extends CI_Model {
         $this->db->where('orders.id', $order_id);
         $this->db->join('users', 'orders.user_id = users.id', 'left');
         $query = $this->db->get();
-        return $query->result()->row();
+        return $query->row();
     }
 
     public function getTotalCashBack($user_id){
@@ -117,13 +117,14 @@ class Order_model extends CI_Model {
                 'notes' => $notes,
                 'cashback'=>$cashback
             );
+            $order->status = $status;
 
             $this->db->where('id', $order_id);
             $this->db->update('orders', $data);
 
             $email_data = array(
                 'full_name' => $order->full_name,
-                'status' => $this->utility->str_status($order->status)
+                'order' => $order
             );
 
             $this->sendEmail($email_data);
@@ -132,12 +133,12 @@ class Order_model extends CI_Model {
     }
 
     public function sendEmail($email_data){
-        $this->load->view('status_update', $email_data, true);
-        $this->email->from('jayendragothi@gmail.com', 'Jayendra');
-        $this->email->to('jayendragothi@gmail.com');
+        $email = $this->load->view('status_update', $email_data, true);
+        $this->email->from('raj.kothari90@gmail.com', 'Raj');
+        $this->email->to($email_data['order']->email);
 
-        $this->email->subject('Email Test');
-        $this->email->message('Testing the email class.');
+        $this->email->subject('StyleUpIndia Status Update');
+        $this->email->message($email);
 
         $this->email->send();
     }

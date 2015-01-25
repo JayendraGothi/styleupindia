@@ -13,18 +13,21 @@
       <div class="row">
         <div class="col-lg-12 text-left">
           <div>
-            <?php if ($email_sent) { ?>
-                <h5>Email is send to your email address.</h5>
+            <?php if ($password_set) { ?>
+                <h5>Password Change Please login Through Login Page</h5>
             <?php }else {?>
               <?php echo validation_errors('<div class="alert alert-danger fade in">', '</div>'); ?>
               <form method="post" action="">
-                <h2 class="form-signin-heading text-center">Enter Your Email</h2>
+                <h2 class="form-signin-heading text-center">Reset Password</h2>
 
                 <div class="form-group">
-                  <label>Email Address</label>
-                  <input type="text" class="form-control" name="email"
-                         placeholder="Email"
-                         value="<?php echo set_value('email'); ?>"/>
+                  <label>Password*</label>
+                  <input type="password" class="form-control email" name="password" placeholder="Enter A Password">
+                </div>
+                <div class="form-group">
+                  <label>Confirm Password*</label>
+                  <input type="password" class="form-control email" name="password_confirm"
+                         placeholder="Enter Password Again">
                 </div>
                 <input name="submit" type="submit" class="btn btn-primary" name='submit' value="Submit"/>
               </form>

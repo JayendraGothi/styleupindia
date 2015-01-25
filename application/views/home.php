@@ -40,7 +40,7 @@
                         <br>
                         <div class="row text-left">
                             <div class="col-md-6">
-                                <a type="button" class="pointer">Forgot Password?</a>
+                                <a type="button" class="pointer" href="<?php echo base_url()."index.php/login/forgot_password"  ?>">Forgot Password?</a>
                             </div>
                             <div class="col-md-6">
                                 <a type="button" class="btn btn-success pull-right" href="<?php echo base_url()?>index.php/login/register">New? Register</a>

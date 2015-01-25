@@ -10,6 +10,30 @@ class User_model extends CI_Model {
         parent::__construct();
 
         $this->load->library('encrypt');
+        $this->load->library('email', '', 'send_email');
+    }
+
+    function generateRandomString($length = 10) {
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+        return $randomString;
+    }
+
+    function changePassword($change_key){
+        $password = $this->security->xss_clean($this->input->post('password'));
+        $password_confirm = $this->security->xss_clean($this->input->post('password_confirm'));
+        $data = array(
+            'password' => $this->encrypt->sha1($password),
+            'change_key' => null
+        );
+        $user = $this->checkChangeKey($change_key);
+        $this->db->where('id', $user->id);
+        $this->db->update('users', $data);
+        return true;
     }
 
     function createUser(){
@@ -21,6 +45,13 @@ class User_model extends CI_Model {
     	return true;
     }
 
+    function getUser($email){
+        $result = $this->db->get_where('users', array('email' => $email));
+        if ($result->num_rows() > 0){
+            return $result->row();
+        }
+        return null;
+    }
     /**
      * Display Admin Order List
      */
@@ -66,6 +97,44 @@ class User_model extends CI_Model {
         return false;
     }
 
+    public function arrangeForgotPassword($email){
+        $this->db->where('email', $email);
+        $change_key = $this->encrypt->sha1($email + $this->generateRandomString());
+        $data = array(
+            'change_key' => $change_key
+        );
+        $this->db->update('users', $data);
+        return $change_key;
+    }
+
+    public function checkChangeKey($change_key){
+        $result = $this->db->get_where('users', array('change_key' => $change_key));
+        if ($result->num_rows() > 0){
+            return $result->row();
+        }
+        return null;
+    }
+
+    public function forgotPassword($email){
+        $user = $this->getUser($email);
+        $change_key = $this->arrangeForgotPassword($email);
+        $data = array(
+            'url' => base_url() . "index.php/login/reset/" . $change_key,
+            'user' => $user
+        );
+        $this->sendEmail($data);
+    }
+
+    public function sendEmail($data){
+        $email = $this->load->view('forgot_password_email', $data, true);
+        $this->send_email->from('raj.kothari90@gmail.com', 'Raj');
+        $this->send_email->to($data['user']->email);
+
+        $this->send_email->subject('Forgot Password');
+        $this->send_email->message($email);
+
+        $this->send_email->send();
+    }
 }
 
 ?>

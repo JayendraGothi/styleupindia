@@ -32,8 +32,8 @@ class CI_Email {
 	var	$mailpath		= "/usr/sbin/sendmail";	// Sendmail path
 	var	$protocol		= "smtp";	// mail/sendmail/smtp
 	var	$smtp_host		= "ssl://smtp.gmail.com";		// SMTP Server.  Example: mail.earthlink.net
-	var	$smtp_user		= "Test";		// SMTP Username
-	var	$smtp_pass		= "Test";		// SMTP Password
+	var	$smtp_user		= "raj.kothari90@gmail.com";		// SMTP Username
+	var	$smtp_pass		= "iloveuallallnallraj1";		// SMTP Password
 	var	$smtp_port		= "465";		// SMTP Port
 	var	$smtp_timeout	= 5;		// SMTP Timeout in seconds
 	var	$smtp_crypto	= "";		// SMTP Encryption. Can be null, tls or ssl.

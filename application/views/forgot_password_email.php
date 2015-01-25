@@ -61,7 +61,7 @@
                                             <tr>
                                                 <td align="left"
                                                     style="padding:3px 30px 3px 30px;font-family:helvetica neue,helvetica,sans-serif;font-size:18px;line-height:18px;font-weight:bold;color:#454545">
-                                                    Hi <?php echo $full_name; ?>,
+                                                    Hi <?php echo $user->full_name; ?>,
                                                 </td>
                                             </tr>
                                             <tr>
@@ -73,22 +73,22 @@
                                             <tr>
                                                 <td align="left"
                                                     style="font-family:helvetica neue,helvetica,sans-serif;font-size:16px;color:#666666;line-height:24px;padding:0 30px 0px 30px">
-                                                    This is to notify you that order has been moved to the following status : 
+                                                    Did you sign up with a different email? Try resetting your password
+                                                    with that address.
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td align="left" style="padding:20px 30px 0 30px">
-                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h3/i41K-2FvbQBVKuIVW29rFpYjhalycjBBC0Vi21R4HxfyrVh357w8EAe-2FU2RAIlph8-2Bzzg8tK6UwlwxtId7RdeVvNltgC0iNoussBPBxEpZieKOK3MbaDIWgkAupxArWnmqBRv5imYzYoMC34aoKuVDWwCxMcs1GmysuhM-2B9fT-2FlQZdOTtM9-2FhWkaF9DwSmP5Nv"
-                                                       style="text-decoration:none;display:block" target="_blank">
+                                                    <a href=<?php echo $url ?> style="text-decoration:none;display:block" target="_blank">
                                                         <table height="40" border="0" cellpadding="0" cellspacing="0">
                                                             <tbody>
                                                             <tr>
                                                                 <td height="38"
                                                                     style="background-color:#3983d0;padding:2px 15px 0px 15px;border-bottom:2px solid #2868a4;border-radius:3px">
-                                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h4/i41K-2FvbQBVKuIVW29rFpYjhalycjBBC0Vi21R4HxfyrVh357w8EAe-2FU2RAIlph8-2Bzzg8tK6UwlwxtId7RdeVvNltgC0iNoussBPBxEpZieKOK3MbaDIWgkAupxArWnmqBRv5imYzYoMC34aoKuVDWwCxMcs1GmysuhM-2B9fT-2FlQZdOTtM9-2FhWkaF9DwSmP5Nv"
+                                                                    <a href=<?php echo $url ?>
                                                                        style="font-family:helvetica,sans-serif;font-size:16px;color:#ffffff;text-decoration:none;display:block"
                                                                        target="_blank">
-                                                                        Confirm
+                                                                        Reset Password
                                                                     </a>
                                                                 </td>
                                                             </tr>
@@ -109,7 +109,8 @@
                                             <tr>
                                                 <td align="left"
                                                     style="font-family:helvetica neue,helvetica,sans-serif;font-size:16px;color:#666666;line-height:24px;padding:0 30px 0px 30px">
-                                                    Visit the website for further details
+                                                    If you didn't ask for a new password . we're sorry! You can ignore
+                                                    this message.
                                                 </td>
                                             </tr>
                                             <tr>
