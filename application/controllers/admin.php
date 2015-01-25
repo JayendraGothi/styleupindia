@@ -11,6 +11,8 @@ class Admin extends CI_Controller
         $this->load->model('order_model');
         $this->load->helper('form');
         $this->load->library('form_validation');
+        $this->load->library('email');
+        $this->email->initialize($this->config);
     }
 
     /**
@@ -48,6 +50,17 @@ class Admin extends CI_Controller
             $this->order_model->updateStatus();
             redirect('index.php/admin');
         }
+    }
+
+    public function sendEmail(){
+        $this->email->from('jayendragothi@gmail.com', 'Jayendra');
+        $this->email->to('jayendragothi@gmail.com');
+
+        $this->email->subject('Email Test');
+        $this->email->message('Testing the email class.');
+
+        $this->email->send();
+        print_r($this->email->print_debugger());
     }
 }
 
