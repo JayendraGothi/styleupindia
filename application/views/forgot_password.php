@@ -1,0 +1,281 @@
+<div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0"
+           style="background-color:#ffffff;border-bottom:1px solid #dcdad8">
+        <tbody>
+        <tr>
+            <td>
+                <table height="40" width="620" align="center" border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table width="600" align="center" border="0" cellpadding="0" cellspacing="0"
+                                   style="border-collapse:collapse">
+                                <tbody>
+                                <tr>
+                                    <td align="left" valign="bottom" height="30">
+                                        <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h0/Gigqz-2Ff2DFUrCtOu1y6fUPNkT2-2BxRVSLYnBCrbSVHfMxwe3-2BKoT-2Fb0IBC1mGgF7izraNBDR3XG43JspFzBrCJ2DLmisasZz7mIVPuTjZc6SHX7yy2-2BiYfuPT-2BSrMUATVkoq87J-2B-2BY5fc-2BL-2BlqZyzxLkLGQ9g0bXCD2wIuUJndV0-3D"
+                                           title="Visit Pinterest.com" target="_blank">
+                                            <img width="97" height="25" border="0"
+                                                 src="https://ci4.googleusercontent.com/proxy/FljV4IcGHkNGLK57gCiy7cBamDrSWta_-7hOh_NMFw5xEjJo3MUga5TaUfk3gGcoZ2HQTvCgLoEUu60kokQkHWfke_Zg0QENUV_Z4flLXGIYhV7As6dHwGc=s0-d-e1-ft#http://email-assets.pinterest.com/email/shared/brand/logo_large.gif"
+                                                 alt="Pinterest"
+                                                 style="text-decoration:none;display:block;outline:none;color:#cb2027;font-size:20px"
+                                                 class="CToWUd">
+                                        </a>
+
+                                        <div style="min-height:10px;font-size:10px;line-height:10px">&nbsp;</div>
+                                    </td>
+                                    <td align="right" valign="bottom" width="90" height="50"
+                                        style="font-family:helvetica neue,helvetica,arial,sans-serif;color:#666666;line-height:15px;font-size:12px;text-align:left">
+                                        Get the app!
+                                        <br>
+                                        <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h1/S-2BLh87u1xwgkcrJV97en0SonS5S4HoKU2pegjmMiYfWPzBaDmsBf9KAEXlYu9GFv"
+                                           style="color:#4a90e2;text-decoration:none;font-weight:bold" target="_blank">
+                                            Android
+                                        </a>
+                                        ·
+                                        <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h2/S-2BLh87u1xwgkcrJV97en0dbYS-2Ft-2BXd2sH9tXky7ofo0TL2YnEgomv53Ma6dUiC0g"
+                                           style="color:#4a90e2;text-decoration:none;font-weight:bold" target="_blank">
+                                            iOS
+                                        </a>
+
+                                        <div style="min-height:10px;font-size:10px;line-height:10px">&nbsp;</div>
+                                    </td>
+                                    <td align="right" valign="bottom" width="64">
+                                        <img width="64" height="45" border="0"
+                                             src="https://ci5.googleusercontent.com/proxy/s3fQO7N2N9Bm2rciUY432sPBo7IZnjeUdW7wWdGMvsMktZCLCFkOLjE64zVxLnbkymAxL3zNjfAcXeGy3LfGS5-iQ5FvXhM6hXcI98nFsiJOL_mevEF6Bacsl-MRLfJ1slsTLqtdASuMWyvo=s0-d-e1-ft#http://email-assets.pinterest.com/email/shared/apps/mobile_apps_header_small_white.jpg"
+                                             alt="Mobile App"
+                                             style="vertical-align:bottom;text-decoration:none;display:block;outline:none"
+                                             class="CToWUd">
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color:#f5f3f0">
+        <tbody>
+        <tr>
+            <td>
+                <table width="620" align="center" border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td align="center">
+                            <div style="min-height:20px;font-size:20px">&nbsp;</div>
+                            <table width="600" border="0" cellpadding="0" cellspacing="0"
+                                   style="background:#ffffff;border-top-left-radius:3px;border-top-right-radius:3px;border-bottom-left-radius:3px;border-bottom-right-radius:3px;border-top:1px solid #e3e3e3;border-bottom:1px solid #e3e3e3;border-left:1px solid #e3e3e3;border-right:1px solid #e3e3e3;overflow:hidden">
+                                <tbody>
+                                <tr>
+                                    <td align="center" style="padding:0px">
+                                        <table width="600" border="0" cellpadding="0" cellspacing="0"
+                                               style="background:#ffffff;border-top:0">
+                                            <tbody>
+                                            <tr>
+                                                <td colspan="1" height="30" style="font-size:30px;line-height:30px">
+                                                    &nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left"
+                                                    style="padding:3px 30px 3px 30px;font-family:helvetica neue,helvetica,sans-serif;font-size:18px;line-height:18px;font-weight:bold;color:#454545">
+                                                    Hi <?php echo $full_name; ?>,
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left"
+                                                    style="font-family:helvetica neue,helvetica,sans-serif;font-size:16px;color:#666666;line-height:24px;padding:0 30px 20px 30px">
+                                                    There isn't a Pinterest account under this email address.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left"
+                                                    style="font-family:helvetica neue,helvetica,sans-serif;font-size:16px;color:#666666;line-height:24px;padding:0 30px 0px 30px">
+                                                    Did you sign up with a different email? Try resetting your password
+                                                    with that address.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" style="padding:20px 30px 0 30px">
+                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h3/i41K-2FvbQBVKuIVW29rFpYjhalycjBBC0Vi21R4HxfyrVh357w8EAe-2FU2RAIlph8-2Bzzg8tK6UwlwxtId7RdeVvNltgC0iNoussBPBxEpZieKOK3MbaDIWgkAupxArWnmqBRv5imYzYoMC34aoKuVDWwCxMcs1GmysuhM-2B9fT-2FlQZdOTtM9-2FhWkaF9DwSmP5Nv"
+                                                       style="text-decoration:none;display:block" target="_blank">
+                                                        <table height="40" border="0" cellpadding="0" cellspacing="0">
+                                                            <tbody>
+                                                            <tr>
+                                                                <td height="38"
+                                                                    style="background-color:#3983d0;padding:2px 15px 0px 15px;border-bottom:2px solid #2868a4;border-radius:3px">
+                                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h4/i41K-2FvbQBVKuIVW29rFpYjhalycjBBC0Vi21R4HxfyrVh357w8EAe-2FU2RAIlph8-2Bzzg8tK6UwlwxtId7RdeVvNltgC0iNoussBPBxEpZieKOK3MbaDIWgkAupxArWnmqBRv5imYzYoMC34aoKuVDWwCxMcs1GmysuhM-2B9fT-2FlQZdOTtM9-2FhWkaF9DwSmP5Nv"
+                                                                       style="font-family:helvetica,sans-serif;font-size:16px;color:#ffffff;text-decoration:none;display:block"
+                                                                       target="_blank">
+                                                                        Reset Password
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="1" height="30" style="font-size:30px;line-height:30px">
+                                                    &nbsp;</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        <table width="600" border="0" cellpadding="0" cellspacing="0"
+                                               style="background:#ffffff;border-top:0">
+                                            <tbody>
+                                            <tr>
+                                                <td align="left"
+                                                    style="font-family:helvetica neue,helvetica,sans-serif;font-size:16px;color:#666666;line-height:24px;padding:0 30px 0px 30px">
+                                                    If you didn't ask for a new password—we're sorry! You can ignore
+                                                    this message.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="1" height="30" style="font-size:30px;line-height:30px">
+                                                    &nbsp;</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <div style="min-height:30px;font-size:30px">&nbsp;</div>
+                            <table width="600" border="0" cellpadding="0" cellspacing="0"
+                                   style="border-collapse:collapse">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0"
+                                               style="border-collapse:collapse">
+                                            <tbody>
+                                            <tr>
+                                                <td align="center"
+                                                    style="font-family:helvetica,sans-serif;font-size:30px;font-weight:bold;line-height:30px;color:#979797">
+                                                    The Pinterest Team
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <div style="min-height:30px;font-size:30px">&nbsp;</div>
+                            <table width="600" border="0" cellpadding="0" cellspacing="0"
+                                   style="border-collapse:collapse">
+                                <tbody>
+                                <tr>
+                                    <td align="center">
+                                        <table width="500" border="0" align="center" cellpadding="0" cellspacing="0"
+                                               style="border-collapse:collapse">
+                                            <tbody>
+                                            <tr>
+                                                <td width="30">
+                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h5/33lpGjfYrO3Hjsigk-2FI1FL-2Fxyksex5UMtTF2Yq5X7pTbVxpIhPZKBy5Ar8q7qVB0qO3eqB77gKoHTLKKTbWWdTaTJyPMh7oXhbXkmYqHGtFglpi8EW4CE4aa5lJLrrPs1dxanzFi5IK5yAEk59JB-2FvuYr-2FE-2Bk1j-2Fb-2B0e9KVFU5R9LNOSQ6Tu-2BMJ3XjFc2-2Fl1"
+                                                       style="text-decoration:none" target="_blank">
+                                                        <img width="30" height="30" border="0"
+                                                             src="https://ci5.googleusercontent.com/proxy/OtPhADByx8fxSfrSvUCL4hLk35JgxPuG41W3NA7X4NJUw-Blim9aVQusrV0pN6ZjdG01VtsqbxWDDohxgYvsTnZMg6ruZYHtv6aJDeCFgVFXy_RIj9TWAXtWLnk9z5A=s0-d-e1-ft#http://email-assets.pinterest.com/email/shared/social/pinterest_large.png"
+                                                             style="text-decoration:none;display:block;outline:none"
+                                                             class="CToWUd">
+                                                    </a>
+                                                </td>
+                                                <td style="padding-left:6px;padding-right:20px;font-family:helvetica neue,helvetica,sans-serif;font-weight:bold;font-size:11px">
+                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h6/33lpGjfYrO3Hjsigk-2FI1FL-2Fxyksex5UMtTF2Yq5X7pTbVxpIhPZKBy5Ar8q7qVB0qO3eqB77gKoHTLKKTbWWdTaTJyPMh7oXhbXkmYqHGtFglpi8EW4CE4aa5lJLrrPs1dxanzFi5IK5yAEk59JB-2FvuYr-2FE-2Bk1j-2Fb-2B0e9KVFU5R9LNOSQ6Tu-2BMJ3XjFc2-2Fl1"
+                                                       style="text-decoration:none;color:#979797" target="_blank">
+                                                        Pinterest
+                                                    </a>
+                                                </td>
+                                                <td width="30">
+                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h7/HE2UYZIDTZxfLuJ8qHDFiLBHs1-2Bj3c0TsPBxxPNRTP90DRu1zWOgst7xkUcMJxnJ"
+                                                       style="text-decoration:none" target="_blank">
+                                                        <img width="30" height="30" border="0"
+                                                             src="https://ci4.googleusercontent.com/proxy/3IYXogCwfXt59KjyF6MarWU6jp2_aTRV-YDtR6GXnSMykxoTjy0I0BauhUwtypAh5SdJg2x38lZPCX23FmEiTKKDWw65_nbKaH6VEyujYpdoEJHGIgzDcY9o6E7XBQ=s0-d-e1-ft#http://email-assets.pinterest.com/email/shared/social/facebook_large.png"
+                                                             style="text-decoration:none;display:block;outline:none"
+                                                             class="CToWUd">
+                                                    </a>
+                                                </td>
+                                                <td style="padding-left:6px;padding-right:20px;font-family:helvetica neue,helvetica,sans-serif;font-weight:bold;font-size:11px">
+                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h8/HE2UYZIDTZxfLuJ8qHDFiLBHs1-2Bj3c0TsPBxxPNRTP90DRu1zWOgst7xkUcMJxnJ"
+                                                       style="text-decoration:none;color:#979797" target="_blank">
+                                                        Facebook
+                                                    </a>
+                                                </td>
+                                                <td width="30">
+                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h9/94d0KlU9iJ-2FHN3q9PYEl6wh1VDpfu-2FTy-2BYubix-2B7nI4eUlFiueeBhuTxQsder9yf"
+                                                       style="text-decoration:none" target="_blank">
+                                                        <img width="30" height="30" border="0"
+                                                             src="https://ci5.googleusercontent.com/proxy/N-hlRJWcdTRs76QNWsOUnvpNpHz-l6Hjp6qc1UqZZgfjN22jfzOZD9jjGPsbrnZkTKAGhMmCARcJa66VZ6-LKr0gTKQiMNVotAIhLsXPdI_T6qfhZ03GaxBdhsyD=s0-d-e1-ft#http://email-assets.pinterest.com/email/shared/social/twitter_large.png"
+                                                             style="text-decoration:none;display:block;outline:none"
+                                                             class="CToWUd">
+                                                    </a>
+                                                </td>
+                                                <td style="padding-left:6px;padding-right:20px;font-family:helvetica neue,helvetica,sans-serif;font-weight:bold;font-size:11px">
+                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h10/94d0KlU9iJ-2FHN3q9PYEl6wh1VDpfu-2FTy-2BYubix-2B7nI4eUlFiueeBhuTxQsder9yf"
+                                                       style="text-decoration:none;color:#979797" target="_blank">
+                                                        Twitter
+                                                    </a>
+                                                </td>
+                                                <td width="30">
+                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h11/HpF-2FgN2L-2BTd3XbGhi4PFtU4d4RgaGQVPq7uNXm8w0aSDclizp6nmnABXLNoUGbJB"
+                                                       style="text-decoration:none" target="_blank">
+                                                        <img width="30" height="30" border="0"
+                                                             src="https://ci6.googleusercontent.com/proxy/adM9CPqTpQjSqNZ-RybhRXu8NHooVMVE3I6WSsDsvbaAKDjN5_2GMPx8AhiBCt6qxpDuSryq4OQ4X7R3FvZRKn_2bpMa-t936cdicdMaLcE1qegkClDeTN5yng=s0-d-e1-ft#http://email-assets.pinterest.com/email/shared/social/gplus_large.png"
+                                                             style="text-decoration:none;display:block;outline:none"
+                                                             class="CToWUd">
+                                                    </a>
+                                                </td>
+                                                <td style="padding-left:6px;padding-right:20px;font-family:helvetica neue,helvetica,sans-serif;font-weight:bold;font-size:11px">
+                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h12/HpF-2FgN2L-2BTd3XbGhi4PFtU4d4RgaGQVPq7uNXm8w0aSDclizp6nmnABXLNoUGbJB"
+                                                       style="text-decoration:none;color:#979797" target="_blank">
+                                                        Google
+                                                    </a>
+                                                </td>
+                                                <td width="30">
+                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h13/WsI9JhY1kjkhlI9ExE07jCbLtW2yT2r4-2FpKohI6MC7k-3D"
+                                                       style="text-decoration:none" target="_blank">
+                                                        <img width="30" height="30" border="0"
+                                                             src="https://ci3.googleusercontent.com/proxy/o_CzxSIxB2QKNx63VGTXbSjdPgsU7snrVT0cylFj_eh8PQJIH2kn840yyGjScOJFygNAKIgTf-rCFgzgsVDM9qk5ZbH7XpKy9WqM8s5GttYYteTdcIfEJ3fG=s0-d-e1-ft#http://email-assets.pinterest.com/email/shared/social/blog_large.png"
+                                                             style="text-decoration:none;display:block;outline:none"
+                                                             class="CToWUd">
+                                                    </a>
+                                                </td>
+                                                <td style="padding-left:6px;font-family:helvetica neue,helvetica,sans-serif;font-weight:bold;font-size:11px">
+                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h14/WsI9JhY1kjkhlI9ExE07jCbLtW2yT2r4-2FpKohI6MC7k-3D"
+                                                       style="text-decoration:none;color:#979797" target="_blank">
+                                                        Blog
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <div style="min-height:30px;font-size:30px">&nbsp;</div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <img src="https://ci6.googleusercontent.com/proxy/HYEQ2EbiKSxxT_8NlpwsW5oHN90oYWR2CfhVIMa2gVmPZhPqw6rXwrao6YvX6WTnQ4U2kxZENcplP_7zuX0edS3VlWPNY2iyIPUvnxWhV7vgosC1NANib_TttLuJuwG8Q5lSn6m_5g=s0-d-e1-ft#https://www.pinterest.com/email/tracking.gif?e_t=7db24d43bdd74b92a6383e0c14bee900"
+         width="0" height="0" class="CToWUd">
+
+    <img src="https://ci4.googleusercontent.com/proxy/xTg025VP-LDEN8i80Cd63Xxe38kz0nxZ1xlaIIqa3VX-eyGXEHirtPFpH_ujB8cNvlkU-QY5YmDwSY7A7sRGBp0sv3rG4l9WMEBvTX0sZLWdpCPeJQ5mOlCqDhc-PHcdPfWKd0E=s0-d-e1-ft#http://email.pinterest.com/mpss/o/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/o.gif"
+         alt="" width="1" height="1" border="0"
+         style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important"
+         class="CToWUd">
+
+    <div class="yj6qo"></div>
+    <div class="adL">
+    </div>
+</div>
