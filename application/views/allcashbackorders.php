@@ -56,6 +56,7 @@
                             <th>Cashback Earned</th>
                             <th>Status</th>
                             <th>Notes</th>
+                            <th>Rejection Reason</th>
                             <th>Confirmation Date</th>
                             <th></th>
                         </tr>
@@ -71,6 +72,7 @@
                                 <td><?php echo $order->cashback ?></td>
                                 <td><?php echo str_status($order->status) ?></td>
                                 <td><?php echo $order->notes ?></td>
+                                <td><?php echo $order->rejection_reason ?></td>
                                 <td><?php echo add_months($order->date) ?></td>
                                 <td>
                                     <button type="button" class="btn btn-primary btn-sm"
@@ -102,7 +104,7 @@
                             <div class="col-md-8 col-md-offset-2">
                                 <div class="form-group">
                                     <label>Status</label>
-                                    <select name="status" class="form-control">
+                                    <select name="status" class="form-control" id="myselect">
                                         <option value="0">Pending</option>
                                         <option value="1">Under Process</option>
                                         <option value="2">Approved</option>
@@ -117,6 +119,10 @@
                                 <div class="form-group">
                                     <label>Notes</label>
                                     <textarea name="notes" id="" class="form-control"></textarea>
+                                </div>
+                                <div class="form-group rejection_reason hide">
+                                    <label>Rejection_reason</label>
+                                    <textarea name="rejection_reason" id="" class="form-control"></textarea>
                                 </div>
                                 <input type="hidden" name="order_id" id="order_id">
                             </div>
@@ -141,6 +147,15 @@
                 var modal = $(this);
                 modal.find('#order_id').val(recipient);
             });
+        });
+
+        $( "#myselect" ).change(function(){
+            var value = $(this).val();
+            if (value == 4){
+                $(".rejection_reason").removeClass('hide');
+            }else{
+                $(".rejection_reason").addClass('hide');
+            }
         });
     </script>
 </body>

@@ -1,42 +1,5 @@
 <div>
-    <table width="100%" border="0" cellpadding="0" cellspacing="0"
-           style="background-color:#ffffff;border-bottom:1px solid #dcdad8">
-        <tbody>
-        <tr>
-            <td>
-                <table height="40" width="620" align="center" border="0" cellpadding="0" cellspacing="0">
-                    <tbody>
-                    <tr>
-                        <td>
-                            <table width="600" align="center" border="0" cellpadding="0" cellspacing="0"
-                                   style="border-collapse:collapse">
-                                <tbody>
-                                <tr>
-                                    <td align="left" valign="bottom" height="30">
-                                        <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h0/Gigqz-2Ff2DFUrCtOu1y6fUPNkT2-2BxRVSLYnBCrbSVHfMxwe3-2BKoT-2Fb0IBC1mGgF7izraNBDR3XG43JspFzBrCJ2DLmisasZz7mIVPuTjZc6SHX7yy2-2BiYfuPT-2BSrMUATVkoq87J-2B-2BY5fc-2BL-2BlqZyzxLkLGQ9g0bXCD2wIuUJndV0-3D"
-                                           title="Visit Pinterest.com" target="_blank">
-                                            <img width="97" height="25" border="0"
-                                                 src="https://ci4.googleusercontent.com/proxy/FljV4IcGHkNGLK57gCiy7cBamDrSWta_-7hOh_NMFw5xEjJo3MUga5TaUfk3gGcoZ2HQTvCgLoEUu60kokQkHWfke_Zg0QENUV_Z4flLXGIYhV7As6dHwGc=s0-d-e1-ft#http://email-assets.pinterest.com/email/shared/brand/logo_large.gif"
-                                                 alt="Pinterest"
-                                                 style="text-decoration:none;display:block;outline:none;color:#cb2027;font-size:20px"
-                                                 class="CToWUd">
-                                        </a>
 
-                                        <div style="min-height:10px;font-size:10px;line-height:10px">&nbsp;</div>
-                                    </td>
-                                    
-                                    
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-        </tbody>
-    </table>
     <table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color:#f5f3f0">
         <tbody>
         <tr>
@@ -61,40 +24,31 @@
                                             <tr>
                                                 <td align="left"
                                                     style="padding:3px 30px 3px 30px;font-family:helvetica neue,helvetica,sans-serif;font-size:18px;line-height:18px;font-weight:bold;color:#454545">
-                                                    Hi <?php echo $user->full_name; ?>,
+                                                    Order From <?php echo $full_name; ?>,
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td align="left"
                                                     style="font-family:helvetica neue,helvetica,sans-serif;font-size:16px;color:#666666;line-height:24px;padding:0 30px 20px 30px">
-                                                    
+                                                    Order Number <?php echo $order->order_id; ?>,
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td align="left"
-                                                    style="font-family:helvetica neue,helvetica,sans-serif;font-size:16px;color:#666666;line-height:24px;padding:0 30px 0px 30px">
-                                                    Did you sign up with a different email? Try resetting your password
-                                                    with that address.
+                                                    style="font-family:helvetica neue,helvetica,sans-serif;font-size:16px;color:#666666;line-height:24px;padding:0 30px 20px 30px">
+                                                    Merchant <?php echo $order->merchant; ?>,
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td align="left" style="padding:20px 30px 0 30px">
-                                                    <a href=<?php echo $url ?> style="text-decoration:none;display:block" target="_blank">
-                                                        <table height="40" border="0" cellpadding="0" cellspacing="0">
-                                                            <tbody>
-                                                            <tr>
-                                                                <td height="38"
-                                                                    style="background-color:#3983d0;padding:2px 15px 0px 15px;border-bottom:2px solid #2868a4;border-radius:3px">
-                                                                    <a href=<?php echo $url ?>
-                                                                       style="font-family:helvetica,sans-serif;font-size:16px;color:#ffffff;text-decoration:none;display:block"
-                                                                       target="_blank">
-                                                                        Reset Password
-                                                                    </a>
-                                                                </td>
-                                                            </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </a>
+                                                <td align="left"
+                                                    style="font-family:helvetica neue,helvetica,sans-serif;font-size:16px;color:#666666;line-height:24px;padding:0 30px 20px 30px">
+                                                    Order Amount <?php echo $order->amount; ?>,
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left"
+                                                    style="font-family:helvetica neue,helvetica,sans-serif;font-size:16px;color:#666666;line-height:24px;padding:0 30px 20px 30px">
+                                                    Order Date <?php echo $order->date; ?>,
                                                 </td>
                                             </tr>
                                             <tr>
@@ -109,8 +63,7 @@
                                             <tr>
                                                 <td align="left"
                                                     style="font-family:helvetica neue,helvetica,sans-serif;font-size:16px;color:#666666;line-height:24px;padding:0 30px 0px 30px">
-                                                    If you didn't ask for a new password . we're sorry! You can ignore
-                                                    this message.
+                                                    Visit the website for further details
                                                 </td>
                                             </tr>
                                             <tr>
@@ -154,6 +107,8 @@
                                                style="border-collapse:collapse">
                                             <tbody>
                                             <tr>
+                                                
+                                                
                                                 <td width="30">
                                                     <a href="http://www.facebook.com/styleupindia"
                                                        style="text-decoration:none" target="_blank">
@@ -164,7 +119,7 @@
                                                     </a>
                                                 </td>
                                                 <td style="padding-left:6px;padding-right:20px;font-family:helvetica neue,helvetica,sans-serif;font-weight:bold;font-size:11px">
-                                                    <a href="http://www.facebook.com/styleupindia"
+                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h8/HE2UYZIDTZxfLuJ8qHDFiLBHs1-2Bj3c0TsPBxxPNRTP90DRu1zWOgst7xkUcMJxnJ"
                                                        style="text-decoration:none;color:#979797" target="_blank">
                                                         Facebook
                                                     </a>
@@ -179,11 +134,11 @@
                                                     </a>
                                                 </td>
                                                 <td style="padding-left:6px;padding-right:20px;font-family:helvetica neue,helvetica,sans-serif;font-weight:bold;font-size:11px">
-                                                    <a href="http://www.twitter.com/styleupindia"
+                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h10/94d0KlU9iJ-2FHN3q9PYEl6wh1VDpfu-2FTy-2BYubix-2B7nI4eUlFiueeBhuTxQsder9yf"
                                                        style="text-decoration:none;color:#979797" target="_blank">
                                                         Twitter
                                                     </a>
-
+                                                
                                                 <td width="30">
                                                     <a href="http://www.styleupindia.com"
                                                        style="text-decoration:none" target="_blank">
@@ -194,7 +149,7 @@
                                                     </a>
                                                 </td>
                                                 <td style="padding-left:6px;font-family:helvetica neue,helvetica,sans-serif;font-weight:bold;font-size:11px">
-                                                    <a href="http://www.styleupindia.com"
+                                                    <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h14/WsI9JhY1kjkhlI9ExE07jCbLtW2yT2r4-2FpKohI6MC7k-3D"
                                                        style="text-decoration:none;color:#979797" target="_blank">
                                                         Visit Styleupindia
                                                     </a>
@@ -215,15 +170,4 @@
         </tr>
         </tbody>
     </table>
-    <img src="https://ci6.googleusercontent.com/proxy/HYEQ2EbiKSxxT_8NlpwsW5oHN90oYWR2CfhVIMa2gVmPZhPqw6rXwrao6YvX6WTnQ4U2kxZENcplP_7zuX0edS3VlWPNY2iyIPUvnxWhV7vgosC1NANib_TttLuJuwG8Q5lSn6m_5g=s0-d-e1-ft#https://www.pinterest.com/email/tracking.gif?e_t=7db24d43bdd74b92a6383e0c14bee900"
-         width="0" height="0" class="CToWUd">
-
-    <img src="https://ci4.googleusercontent.com/proxy/xTg025VP-LDEN8i80Cd63Xxe38kz0nxZ1xlaIIqa3VX-eyGXEHirtPFpH_ujB8cNvlkU-QY5YmDwSY7A7sRGBp0sv3rG4l9WMEBvTX0sZLWdpCPeJQ5mOlCqDhc-PHcdPfWKd0E=s0-d-e1-ft#http://email.pinterest.com/mpss/o/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/o.gif"
-         alt="" width="1" height="1" border="0"
-         style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important"
-         class="CToWUd">
-
-    <div class="yj6qo"></div>
-    <div class="adL">
-    </div>
 </div>

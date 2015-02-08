@@ -21,9 +21,22 @@
 
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+  padding: 20px 30px;
+  color: #f7f7f7;
+  background-color: #32526E;
+  -webkit-box-shadow: 1px 0px 23px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 0px 23px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 0px 23px -4px rgba(0, 0, 0, 0.75);
+  font-size: 12px;
+}
+
+.footer .heading{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer a{
+  color: #fff;
 }
 
 .container-narrow > hr {
@@ -33,13 +46,15 @@
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
 }
 
 .white{
   background-color: #fff;
   padding: 20px;
-  border-radius: 20px;
+  border: 1px solid #eee;
+  -webkit-box-shadow: 0px 0px 30px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 30px -17px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 30px -17px rgba(0, 0, 0, 0.75);
 }
 
 
@@ -50,4 +65,51 @@
 
 h2{
   margin-top: 0;
+}
+
+.float{
+  position: relative;
+}
+
+.float .message{
+  display: none;
+  position: absolute;
+}
+
+.float:hover .message{
+  display: block;
+  top: 10px;
+  left: 79px;
+  width: 150px;
+  padding: 10px;
+  background-color: #d9534f;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.message .arrow_box {
+  position: relative;
+  background: #ffffff;
+}
+.message .arrow_box:after, .arrow_box:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.message .arrow_box:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-right-color: #d9534f;
+  border-width: 19px;
+  margin-top: -10px;
+}
+.message .arrow_box:before {
+  border-color: rgba(238, 238, 238, 0);
+  border-right-color: #eee;
+  margin-top: -10px;
 }

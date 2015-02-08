@@ -46,8 +46,8 @@
                             </div>
                             <div class="form-group">
                                 <label>Order Date*</label>
-                                <input type="date" class="form-control" name="date" placeholder="Eg 12/07/2015"
-                                       value="<?php echo set_value('date'); ?>"/>
+                                <input type="text" class="form-control" name="date" placeholder="Eg 12/07/2015"
+                                       value="<?php echo set_value('date'); ?>" id="datepicker"/>
                             </div>
                             <div class="form-group">
                                 <label>Order Merchant*</label>
@@ -69,3 +69,11 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(function() {
+        $( "#datepicker" ).datepicker({
+            dateFormat: "yy-mm-dd"
+        });
+    });
+</script>

@@ -7,6 +7,10 @@
 		return base_url().'index.php/home';
 	}
 
+	function is_rejected($value){
+		return $value == 4;
+	}
+
 	function str_status($value){
 		if ($value == 0){
 			return "Pending";
@@ -23,5 +27,9 @@
 
 	function add_months($date){
 		return date('Y-m-d', strtotime("+3 months", strtotime($date)));
+	}
+
+	function format_date($date){
+		return date('d F Y', strtotime($date));
 	}
 ?>

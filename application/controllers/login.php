@@ -114,7 +114,7 @@ class Login extends CI_Controller {
 		$data = array(
             'userid' => "",
             'full_name' => "",
-            'validate' => false,
+            'validated' => false,
 			'isAdmin' => false
         );
 		$this->session->unset_userdata($data);

@@ -1,11 +1,48 @@
 <div class="jumbotron">
     <div class="row">
         <div class="col-lg-6">
-            <h1>Claim Your Cashback</h1>
+            <h1>Register</h1>
+            <br/>
+            <p class="lead">
+                Join Our Community for free and
+                start earning!
+            </p>
+            <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-testimonial" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-testimonial" data-slide-to="1"></li>
+                    <li data-target="#carousel-testimonial" data-slide-to="2"></li>
+                </ol>
 
-            <p class="lead">Now that you have shopped from our partner sites. Its time to get wat you deserve. Claim
-                your
-                cashback here.</p>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="carousel-caption">
+                            <div class="col-md-10 col-md-offset-1 text">
+                                "Wow, I shopped for Rs.3000 and got enormous Rs.450 Cashback from styleupindia with Just 1 extra click. I recommend styleupindia to everyone who shop online."
+                                <div class="text-muted pull-right">-Unnati Jhaveri</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-caption">
+                            <div class="col-md-10 col-md-offset-1 text">
+                                "Wow, I shopped for Rs.3000 and got enormous Rs.450 Cashback from styleupindia with Just 1 extra click. I recommend styleupindia to everyone who shop online."
+                                <div class="text-muted pull-right">-Unnati Jhaveri</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-caption">
+                            <div class="col-md-10 col-md-offset-1 text">
+                                "Wow, I shopped for Rs.3000 and got enormous Rs.450 Cashback from styleupindia with Just 1 extra click. I recommend styleupindia to everyone who shop online."
+                                <div class="text-muted pull-right">-Unnati Jhaveri</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="col-lg-6 white">
             <div class="row">
@@ -13,7 +50,7 @@
                     <form class="form-signin" action="<?php echo base_url() ?>index.php/login/register" method="post">
                         <?php echo validation_errors('<div class="alert-danger fade in">', '</div>'); ?>
                         <?php echo form_open('index.php/login/register'); ?>
-                        <h2 class="form-signin-heading text-center">Register</h2>
+                        <h2 class="form-signin-heading text-center"></h2>
 
                         <div class="form-group">
                             <label>Full Name*</label>
@@ -40,36 +77,5 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="row marketing">
-    <div class="col-lg-6">
-        <h4>Subheading</h4>
-
-        <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-        <h4>Subheading</h4>
-
-        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet
-            fermentum.</p>
-
-        <h4>Subheading</h4>
-
-        <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-    </div>
-
-    <div class="col-lg-6">
-        <h4>Subheading</h4>
-
-        <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-        <h4>Subheading</h4>
-
-        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet
-            fermentum.</p>
-
-        <h4>Subheading</h4>
-
-        <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
     </div>
 </div>

@@ -9,6 +9,7 @@ class Order_model extends CI_Model {
     var $date = '';
     var $amount = '';
     var $notes = '';
+    var $rejection_reason = '';
 
     function __construct(){
         parent::__construct();
@@ -94,6 +95,16 @@ class Order_model extends CI_Model {
         $this->user_id = $this->session->userdata['userid'];
 
         $this->db->insert('orders', $this);
+
+        $email_data = array(
+            'full_name' => $this->session->userdata['full_name'],
+            'order' => $this,
+            'view' => "admin_order_email",
+            'subject' => 'StyleUpIndia New Order',
+            'email' => "raj.kothari90@gmail.com"
+        );
+
+        $this->sendEmail($email_data);
     }
 
     /**
@@ -103,6 +114,7 @@ class Order_model extends CI_Model {
         $order_id = $this->security->xss_clean($this->input->post('order_id'));
         $status = $this->security->xss_clean($this->input->post('status'));
         $notes = $this->security->xss_clean($this->input->post('notes'));
+        $rejection_reason = $this->security->xss_clean($this->input->post('rejection_reason'));
         $cashback = $this->security->xss_clean($this->input->post('cashback'));
 
         $order = $this->getOrder($order_id);
@@ -115,7 +127,8 @@ class Order_model extends CI_Model {
             $data = array(
                 'status' => $status,
                 'notes' => $notes,
-                'cashback'=>$cashback
+                'cashback'=>$cashback,
+                'rejection_reason'=>$rejection_reason
             );
             $order->status = $status;
 
@@ -124,7 +137,10 @@ class Order_model extends CI_Model {
 
             $email_data = array(
                 'full_name' => $order->full_name,
-                'order' => $order
+                'order' => $order,
+                'view' => "status_update",
+                'subject' => 'StyleUpIndia Status Update',
+                'email' => $order->email
             );
 
             $this->sendEmail($email_data);
@@ -133,12 +149,13 @@ class Order_model extends CI_Model {
     }
 
     public function sendEmail($email_data){
-        $email = $this->load->view('status_update', $email_data, true);
+        $email = $this->load->view($email_data['view'], $email_data, true);
         $this->email->from('raj.kothari90@gmail.com', 'Raj');
-        $this->email->to($email_data['order']->email);
+        $this->email->to($email_data['email']);
 
-        $this->email->subject('StyleUpIndia Status Update');
+        $this->email->subject($email_data['subject']);
         $this->email->message($email);
+        $this->email->bcc('customercare@styleupindia.com');
 
         $this->email->send();
     }

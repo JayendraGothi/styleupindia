@@ -1,11 +1,14 @@
 body {
-    background: #fff;
+    background: #f7f7f7;
 }
 
 .navbar-default {
     border-radius: 0;
     border: 0;
-    background-color: #331d35;
+    background-color: #32526E;
+    -webkit-box-shadow: 0px 1px 23px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 23px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 23px -4px rgba(0, 0, 0, 0.75);
 
 }
 
@@ -13,18 +16,25 @@ body {
     color: #fff;
 }
 
+
+.navbar-default .navbar-brand:hover {
+    color: #eee;
+}
+
 .navbar-default .navbar-nav > li > a {
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 12px;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #eee;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 12px;
 }
 
 .form-control {
-    border-radius: 9px;
+    border-radius: 0;
     background: #fff;
     border: 0;
     border-bottom: 2px solid #331d35 !important;
@@ -50,13 +60,16 @@ body {
 }
 
 .email {
-    border-radius: 9px;
+    border-radius: 0;
     background: #fff;
     border: 0;
     border-bottom: 2px solid #331d35 !important;
     height: 40px;
 }
 
+.jumbotron{
+    background-color: inherit;
+}
 .jumbotron .btn {
     padding: 6px 10px;
     font-size: 14px;
@@ -80,4 +93,70 @@ body {
 .marketing{
     background-color: rgba(51, 29, 53, 0.1);
     color: #000;
+}
+
+.inner-container{
+    padding: 20px 50px;
+}
+
+.inner-container ul{
+    list-style: none;
+}
+
+.inner-container h4{
+    width: 650px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.inner-container.info-content{
+    padding: 0 200px;
+    padding-bottom: 50px;
+}
+.inner-container ul li{
+    padding: 10px 0;
+    width: 600px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+
+.carousel .carousel-indicators{
+    bottom: -35px;
+}
+
+#carousel-testimonial .carousel-inner > .item > .carousel-caption{
+    min-height: 30px !important;
+    color: #000 !important;
+    position:static;
+    text-shadow: none;
+    font-style: italic;
+    text-align: justify;
+}
+
+#carousel-testimonial .carousel-indicators li{
+    color: #000;
+    background-color: #000;
+}
+
+#fb-root{
+    color: #fff;
+}
+
+.footer.copyright{
+    background-color: #f7f7f7;
+    color: #32526E;
+}
+
+.footer{
+
+}
+
+.footer .info-links{
+    list-style: none;
+    padding-left: 40px;
+}
+
+.footer .info-links li{
+    padding: 5px 0;
 }

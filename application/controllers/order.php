@@ -76,6 +76,7 @@ class Order extends CI_Controller {
         if ($this->input->post('submit')){
             $this->validationRules();
             if ($this->form_validation->run() == FALSE){
+                print_r($this->input->post('date'));
                 $data['body'] = $this->load->view('cashback_form', $data, true);
             }else{
                 $this->order_model->createOrder();
@@ -88,6 +89,20 @@ class Order extends CI_Controller {
         return $this->load->view('base_template', $data);
     }
 
+    public function check_past_date($date){
+        $start_ts = strtotime("now - 5 days");
+        $user_ts = strtotime($date);
+
+        return $user_ts >= $start_ts;
+    }
+
+    public function check_future_date($date){
+        $end_ts = strtotime("now");
+        $user_ts = strtotime($date);
+
+        return $user_ts < $end_ts;
+    }
+
     /**
      * Set Validations
      */
@@ -95,7 +110,9 @@ class Order extends CI_Controller {
         $this->form_validation->set_rules('order_id', 'Order Id', 'required|is_unique[orders.order_id]');
         $this->form_validation->set_rules('merchant', 'Merchant', 'required');
         $this->form_validation->set_rules('amount', 'Amount', 'required');
-        $this->form_validation->set_rules('date', 'Date', 'required');
+        $this->form_validation->set_rules('date', 'Date', 'required|callback_check_past_date|callback_check_future_date');
+        $this->form_validation->set_message('check_past_date', 'We Accept orders from last 5 days only.');
+        $this->form_validation->set_message('check_future_date', 'Future Date not Allowed.');
     }
 }
 ?>

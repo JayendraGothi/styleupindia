@@ -1,42 +1,4 @@
 <div>
-    <table width="100%" border="0" cellpadding="0" cellspacing="0"
-           style="background-color:#ffffff;border-bottom:1px solid #dcdad8">
-        <tbody>
-        <tr>
-            <td>
-                <table height="40" width="620" align="center" border="0" cellpadding="0" cellspacing="0">
-                    <tbody>
-                    <tr>
-                        <td>
-                            <table width="600" align="center" border="0" cellpadding="0" cellspacing="0"
-                                   style="border-collapse:collapse">
-                                <tbody>
-                                <tr>
-                                    <td align="left" valign="bottom" height="30">
-                                        <a href="http://email.pinterest.com/mpss/c/1wA/2dUJAA/t.1jy/iSspk3TWSXy88RDX5MxrFQ/h0/Gigqz-2Ff2DFUrCtOu1y6fUPNkT2-2BxRVSLYnBCrbSVHfMxwe3-2BKoT-2Fb0IBC1mGgF7izraNBDR3XG43JspFzBrCJ2DLmisasZz7mIVPuTjZc6SHX7yy2-2BiYfuPT-2BSrMUATVkoq87J-2B-2BY5fc-2BL-2BlqZyzxLkLGQ9g0bXCD2wIuUJndV0-3D"
-                                           title="Visit Pinterest.com" target="_blank">
-                                            <img width="97" height="25" border="0"
-                                                 src="https://ci4.googleusercontent.com/proxy/FljV4IcGHkNGLK57gCiy7cBamDrSWta_-7hOh_NMFw5xEjJo3MUga5TaUfk3gGcoZ2HQTvCgLoEUu60kokQkHWfke_Zg0QENUV_Z4flLXGIYhV7As6dHwGc=s0-d-e1-ft#http://email-assets.pinterest.com/email/shared/brand/logo_large.gif"
-                                                 alt="Pinterest"
-                                                 style="text-decoration:none;display:block;outline:none;color:#cb2027;font-size:20px"
-                                                 class="CToWUd">
-                                        </a>
-
-                                        <div style="min-height:10px;font-size:10px;line-height:10px">&nbsp;</div>
-                                    </td>
-                                    
-                                    
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-        </tbody>
-    </table>
     <table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color:#f5f3f0">
         <tbody>
         <tr>
